@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/*Abstract*/
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+/*Fontes*/
+/*Cores*/
+/*Componentes*/
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+/*Fontes*/
+/*Cores*/
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+.imagem-carrossel {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 30% 70%;
+     object-position: 30% 70%;
+  height: 500px;
+  background-position: center;
+}
+
+.carousel-caption {
+  /*Centraliza o título*/
+  height: 50%;
+}
+.carousel-caption .title-carousel {
+  font-family: "Pacifico", cursive;
+  font-size: 3em;
+}
+
+/*Fontes*/
+/*Cores*/
+.first-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 18vh;
+  padding: 2%;
+}
+.first-message h2 {
+  font-family: "Pacifico", cursive;
+  color: darkred;
+}
+.first-message p {
+  font-size: 1.1em;
+}
+
+/*Fontes*/
+/*Cores*/
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+.cards .card {
+  border: 3px solid darkred;
+}
+.cards .card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 210px;
+}/*# sourceMappingURL=style.css.map */
