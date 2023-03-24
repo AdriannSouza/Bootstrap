@@ -60,4 +60,19 @@
   -o-object-fit: cover;
      object-fit: cover;
   max-height: 210px;
+}
+.cards .card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cards .card-body .btn-card {
+  background-color: darkred;
+  color: white;
+  border-color: darkred;
+  width: 100%;
+}
+.cards .card-body h5 {
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */

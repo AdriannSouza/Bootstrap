@@ -6,7 +6,20 @@
     
     .card
         border: 3px solid $cor1
+
         img
             object-fit: cover
             max-height: 210px
+
+    .card-body
+        @include align()
+        flex-direction: column
+
+        .btn-card
+            background-color: $cor1
+            color: white
+            border-color: $cor1
+            width: 100%
+        h5
+            font-weight: bold
         
