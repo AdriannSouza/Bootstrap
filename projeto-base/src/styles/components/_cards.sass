@@ -1,25 +1,27 @@
 @import ../abstract/_base.scss
     
 .cards
-    @include align()
-    gap: 5%
-    
-    .card
-        border: 3px solid $cor1
-
-        img
-            object-fit: cover
-            max-height: 210px
-
-    .card-body
+    .row
         @include align()
-        flex-direction: column
+        gap: 30px
+        .card
+            max-width: 18rem
+            border: 3px solid $cor1
+            padding: 0
 
-        .btn-card
-            background-color: $cor1
-            color: white
-            border-color: $cor1
-            width: 100%
-        h5
-            font-weight: bold
+            img
+                height: 210px
+                object-fit: cover
+
+        .card-body
+            @include align()
+            flex-direction: column
+
+            .btn-card
+                width: 100%
+                background-color: $cor1
+                color: white
+                border-color: $cor1
+            h5
+                font-weight: bold
         

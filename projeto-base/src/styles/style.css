@@ -47,32 +47,34 @@
 
 /*Fontes*/
 /*Cores*/
-.cards {
+.cards .row {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5%;
+  gap: 30px;
 }
-.cards .card {
+.cards .row .card {
+  max-width: 18rem;
   border: 3px solid darkred;
+  padding: 0;
 }
-.cards .card img {
+.cards .row .card img {
+  height: 210px;
   -o-object-fit: cover;
      object-fit: cover;
-  max-height: 210px;
 }
-.cards .card-body {
+.cards .row .card-body {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.cards .card-body .btn-card {
+.cards .row .card-body .btn-card {
+  width: 100%;
   background-color: darkred;
   color: white;
   border-color: darkred;
-  width: 100%;
 }
-.cards .card-body h5 {
+.cards .row .card-body h5 {
   font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
