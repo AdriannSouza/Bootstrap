@@ -2,14 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/*Fontes*/
-/*Cores*/
 a.logo {
   color: darkred;
   font-family: "Pacifico", cursive;
@@ -18,13 +10,6 @@ a.logo:hover {
   color: darkred;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/*Fontes*/
-/*Cores*/
 .imagem-carrossel {
   display: block;
   height: 650px;
@@ -46,6 +31,8 @@ a.logo:hover {
   .imagem-carrossel {
     -o-object-position: center;
        object-position: center;
+    height: 400px;
+  }
 }
 
 .first-message {
@@ -64,11 +51,6 @@ a.logo:hover {
 }
 .first-message p {
   font-size: 1.1em;
-}
-
-* {
-  margin: 0;
-  padding: 0;
 }
 
 .cards {
