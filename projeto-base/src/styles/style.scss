@@ -3,6 +3,9 @@
 @import './abstract/mixins';
 
 /*Componentes*/
+@import './components/_navbar.sass';
 @import './components/_carrossel.sass';
 @import './components/_first-message.sass';
 @import './components/_cards.sass';
+@import './components/_modal.sass';
+@import './components/_footer.sass';

@@ -1,10 +1,10 @@
 @import ../abstract/_base.scss
 
 .imagem-carrossel
+    display: block
+    height: 650px
+    width: 100vw
     object-fit: cover
-    object-position: 30% 70%
-    height: 500px
-    background-position: center
 
 .carousel-caption
     /*Centraliza o título*/
@@ -13,3 +13,7 @@
     .title-carousel
         font-family: $fonte-pacifico
         font-size: 3em
+
+@media screen and (max-width: 425px)
+    .imagem-carrossel
+        object-position: 50% 50%

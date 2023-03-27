@@ -1,21 +1,47 @@
 @charset "UTF-8";
 /*Abstract*/
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /*Fontes*/
 /*Cores*/
 /*Componentes*/
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /*Fontes*/
 /*Cores*/
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+a.logo {
+  color: darkred;
+  font-family: "Pacifico", cursive;
+}
+a.logo:hover {
+  color: darkred;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Fontes*/
+/*Cores*/
 .imagem-carrossel {
+  display: block;
+  height: 650px;
+  width: 100vw;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: 30% 70%;
-     object-position: 30% 70%;
-  height: 500px;
-  background-position: center;
 }
 
 .carousel-caption {
@@ -27,6 +53,17 @@
   font-size: 3em;
 }
 
+@media screen and (max-width: 425px) {
+  .imagem-carrossel {
+    -o-object-position: 50% 50%;
+       object-position: 50% 50%;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /*Fontes*/
 /*Cores*/
 .first-message {
@@ -34,19 +71,29 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 18vh;
-  padding: 2%;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 20px;
 }
 .first-message h2 {
   font-family: "Pacifico", cursive;
   color: darkred;
+  text-align: center;
 }
 .first-message p {
   font-size: 1.1em;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /*Fontes*/
 /*Cores*/
+.cards {
+  overflow: hidden;
+}
 .cards .row {
   display: flex;
   justify-content: center;
@@ -77,4 +124,30 @@
 }
 .cards .row .card-body h5 {
   font-weight: bold;
+}
+
+.btn-cor {
+  background-color: darkred;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Fontes*/
+/*Cores*/
+footer {
+  margin: 0;
+  background-color: #6C757D;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  color: white;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
