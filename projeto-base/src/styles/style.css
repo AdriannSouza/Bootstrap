@@ -1,26 +1,12 @@
 @charset "UTF-8";
 /*Abstract*/
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
 * {
   margin: 0;
   padding: 0;
 }
 
-/*Fontes*/
-/*Cores*/
-/*Componentes*/
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/*Fontes*/
-/*Cores*/
 a.logo {
   color: darkred;
   font-family: "Pacifico", cursive;
@@ -29,13 +15,6 @@ a.logo:hover {
   color: darkred;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/*Fontes*/
-/*Cores*/
 .imagem-carrossel {
   display: block;
   height: 650px;
@@ -59,13 +38,7 @@ a.logo:hover {
        object-position: 50% 50%;
   }
 }
-* {
-  margin: 0;
-  padding: 0;
-}
 
-/*Fontes*/
-/*Cores*/
 .first-message {
   display: flex;
   justify-content: center;
@@ -83,14 +56,6 @@ a.logo:hover {
 .first-message p {
   font-size: 1.1em;
 }
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/*Fontes*/
-/*Cores*/
 .cards {
   overflow: hidden;
 }
@@ -130,13 +95,6 @@ a.logo:hover {
   background-color: darkred;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/*Fontes*/
-/*Cores*/
 footer {
   margin: 0;
   background-color: #6C757D;
@@ -150,4 +108,4 @@ footer {
 footer a {
   color: white;
   text-decoration: none;
-}/*# sourceMappingURL=style.css.map */
+}
